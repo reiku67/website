@@ -78,38 +78,16 @@ hr {
     position: relative;
 }
 
-.anti-header {
-    position: relative;
-}
 .victoriano {
-    flex: 0 1 auto;
-    margin: 0 auto;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 50%;
-    translate: 0 -50%;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 2.5em;
+    color: white;
+    font-style: italic;
+    text-decoration: none !important;
 }
 .hamburger {
     position: absolute;
     right: 32px;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 0;
-}
-.menu {
-    right: 16px;
-}
-
-    .victoriano {
-        font-family: 'Mrs Saint Delafield', cursive;
-        font-size: 2.5em;
-        color: white;
-        font-style: italic;
-    }
-
-/* Menú hamburguesa */
-.hamburger {
     background: none;
     border: none;
     cursor: pointer;
@@ -122,6 +100,7 @@ hr {
     margin-left: 16px;
     z-index: 2;
 }
+
 .hamburger span {
     display: block;
     width: 22px;
@@ -130,7 +109,6 @@ hr {
     background: #3ea6ff;
 }
 
-/* Menú desplegable */
 .menu {
     position: absolute;
     top: 56px;
@@ -139,7 +117,7 @@ hr {
     border-radius: 0 0 0 12px;
     min-width: 160px;
     display: none;
-    z-index: 1000;
+    z-index: 3;
     border-left: 2px solid #3ea6ff;
     border-bottom: 2px solid #3ea6ff;
     border-top: none;
