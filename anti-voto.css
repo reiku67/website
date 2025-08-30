@@ -1,0 +1,166 @@
+/* Sección llamativa de sitio en construcción */
+.construccion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #07457a;
+    border-radius: 12px;
+}
+.azul {
+    color: #3ea6ff;
+}
+.rojo {
+    color: #ff2d2d;
+}
+a, a:visited {
+    color: #fff;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+a:hover, a:focus {
+    color: #3ea6ff;
+}
+body {
+    background: black;
+    font-family: 'Freight Text', 'Latin Modern Roman', 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+.latex-container {
+    width: 80vw;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #212121;
+    padding: 40px 48px;
+    border-radius: 12px;
+}
+h1, h2 {
+    font-family: 'Latin Modern Roman', 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 24px;
+    letter-spacing: 0.5px;
+}
+
+p, li {
+    font-size: 1.15em;
+    line-height: 1.7;
+    color: white;
+    margin-bottom: 16px;
+}
+ol {
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+strong {
+    font-weight: 600;
+    color: #3ea6ff;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #424242;
+    margin: 32px 0;
+
+}
+
+.header {
+    background: #212121;
+    border-bottom: 2px solid #3ea6ff;
+    height: 56px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.anti-header {
+    position: relative;
+}
+.victoriano {
+    flex: 0 1 auto;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    translate: 0 -50%;
+}
+.hamburger {
+    position: absolute;
+    right: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 0;
+}
+.menu {
+    right: 16px;
+}
+
+    .victoriano {
+        font-family: 'Mrs Saint Delafield', cursive;
+        font-size: 2.5em;
+        color: white;
+        font-style: italic;
+    }
+
+/* Menú hamburguesa */
+.hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 40px;
+    margin-left: 16px;
+    z-index: 2;
+}
+.hamburger span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin: 3px 0;
+    background: #3ea6ff;
+}
+
+/* Menú desplegable */
+.menu {
+    position: absolute;
+    top: 56px;
+    right: 0;
+    background: #212121;
+    border-radius: 0 0 0 12px;
+    min-width: 160px;
+    display: none;
+    z-index: 1000;
+    border-left: 2px solid #3ea6ff;
+    border-bottom: 2px solid #3ea6ff;
+    border-top: none;
+    border-right: none;
+}
+.menu.open {
+    display: block;
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 12px 0;
+}
+.menu li {
+    margin: 0;
+    padding: 0;
+}
+.menu a {
+    display: block;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background 0.2s, color 0.2s;
+}
