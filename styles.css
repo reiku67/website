@@ -1,3 +1,9 @@
+/* Estilo para notas de referencia en superíndice */
+.ref-note {
+    font-size: 0.95em;
+    color: #aaa;
+    margin-top: 8px;
+}
 /* Centrar imagen horizontalmente */
 .center-img {
     display: block;
