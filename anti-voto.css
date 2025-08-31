@@ -131,15 +131,15 @@ hr {
 .menu ul {
     list-style: none;
     margin: 0;
-    padding: 12px 0;
+    padding: 0 12px 12px;
 }
 .menu li {
     margin: 0;
-    padding: 0;
+    padding: 8px;
 }
 .menu a {
     display: block;
-    padding: 12px 24px;
+    padding: 0px 24px;
     text-decoration: none;
     font-size: 1.1em;
     transition: background 0.2s, color 0.2s;
