@@ -79,22 +79,6 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
-@media (max-width: 600px) {
-    .header {
-        max-width: 100vw;
-        padding-left: 8px;
-        padding-right: 8px;
-        margin-bottom: 0;
-    }
-
-    .latex-container {
-        width: 95vw;
-        max-width: 100vw;
-        padding-left: 8px;
-        padding-right: 8px;
-        border-radius: 0;
-    }
-}
 
 .victoriano {
     font-family: 'Mrs Saint Delafield', cursive;
@@ -160,3 +144,28 @@ hr {
     font-size: 1.1em;
     transition: background 0.2s, color 0.2s;
 }
+
+@media (max-width: 600px) {
+    .header {
+            background: #181818;
+        max-width: 100vw;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-bottom: 0;
+    }
+
+    .latex-container {
+        width: 95vw;
+        max-width: 100vw;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 0;
+    }
+    .menu {
+        position: absolute;
+        top: 56px;
+        right: 0;
+        background: #181818;
+    }
+}
+
