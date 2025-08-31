@@ -1,3 +1,10 @@
+/* Centrar imagen horizontalmente */
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
 /* Sección llamativa de sitio en construcción */
 @font-face {
     font-family: 'Mrs Saint Delafield';
