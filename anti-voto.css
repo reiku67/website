@@ -29,7 +29,7 @@ body {
 .latex-container {
     width: 80vw;
     max-width: 800px;
-    margin: 0 auto;
+    margin: auto;
     background: #212121;
     padding: 40px 48px;
     border-radius: 12px;
