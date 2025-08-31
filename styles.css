@@ -1,4 +1,10 @@
 /* Sección llamativa de sitio en construcción */
+@font-face {
+    font-family: 'Mrs Saint Delafield';
+    src: url('font/MrsSaintDelafield-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 .construccion {
     display: flex;
     align-items: center;
