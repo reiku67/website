@@ -8,7 +8,21 @@
     <link rel="preload" href="font/MrsSaintDelafield-Regular.ttf" as="font" type="font/ttf" crossorigin>
 </head>
 <body>
-<header class="header"><a class="victoriano" href="index.html">Oscar Wilde</a></header>
+    <header class="header">
+<a class="victoriano" href="index.html">Oscar Wilde</a>
+        <button class="hamburger" id="hamburger-btn" aria-label="Abrir menú">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="menu" id="menu">
+            <ul>
+                <li><a href="anarquia.html">Anarquia</a></li>
+                <li><a href="poder.html">Redes de Poder</a></li>
+                <li><a href="etica.html">Etica</a></li>
+            </ul>
+        </nav>
+    </header>
     <main class="latex-container sobrio">
     <h1>Entendiendo las Redes de Poder/Influencia</h1>
         <hr>
@@ -22,5 +36,13 @@
             </div>
         </section>
     </main>
+    <script defer>
+        const btn = document.getElementById('hamburger-btn');
+        const menu = document.getElementById('menu');
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('open');
+            btn.classList.toggle('open');
+        });
+    </script>
 </body>
 </html>
