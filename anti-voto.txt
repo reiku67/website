@@ -22,5 +22,9 @@ Estamos condenados jaja
 
 En teoria de juegos hay un concepto muy conocido "equilibrio de nash".
 
-El equilibrio de Nash es un concepto fundamental en la teoría de juegos. Se refiere a una situación en la que, en un juego con dos o más jugadores, ninguno de ellos puede mejorar su resultado cambiando solo su propia estrategia, suponiendo que los demás jugadores mantienen sus estrategias sin cambios
-En otras palabras, cada jugador elige la mejor respuesta posible dadas las decisiones de los demás. Si todos los jugadores están en equilibrio de Nash, ninguno tiene incentivos para desviarse unilateralmente.
+La vida misma al no tratarse de un juego coperativo, cada persona quiere lo mejor para si. Nadie quiere para una multa, nadie quiere ser arrastrado por las ideas de la mayoria.
+Y por ello perdemos todos, la decision mas racional seria que nadie gobierne a nadie, dado que no sabes que puede hacer el otro con una pistola cuando vos no tenes ninguna
+
+divide y venceras,
+
+esto ya esta pensado, y es la forma en la que opera, los interes de los azules son distintos a los rojos y por tanto son enemigos, "si no votas podes hacer que gobiernen los demas, es un peligro"
