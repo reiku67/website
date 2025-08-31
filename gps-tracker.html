@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferentes Anarquias</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="font/MrsSaintDelafield-Regular.ttf" as="font" type="font/ttf" crossorigin>
+</head>
+<body>
+    <header class="header">
+<a class="victoriano" href="index.html">Oscar Wilde</a>
+        <button class="hamburger" id="hamburger-btn" aria-label="Abrir menú">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="menu" id="menu">
+            <ul>
+                <li><a href="anarquia.html">Anarquia</a></li>
+                <li><a href="poder.html">Redes de Poder</a></li>
+                <li><a href="etica.html">Etica</a></li>
+                <li><a href="gps-tracker.html">GPS Tracker</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="latex-container sobrio">
+    <h1>¿Como armar un ratreador GPS usando Arduino?</h1>
+        <hr>
+        <section>
+            <p>materiales</p>
+        </section>
+        <hr>
+        <section>
+            <div class="construccion">
+                <p>⚠️ Sitio en construcción</p>
+            </div>
+        </section>
+    </main>
+    <script defer>
+        const btn = document.getElementById('hamburger-btn');
+        const menu = document.getElementById('menu');
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('open');
+            btn.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

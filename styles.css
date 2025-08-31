@@ -1,4 +1,6 @@
 /* Estilo para notas de referencia en superíndice */
+/* Import Google Fonts: Share Tech Mono para .calc */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 .ref-note {
     font-size: 0.95em;
     color: #aaa;
@@ -16,7 +18,7 @@ img {
     max-width: 95%;
     height: auto;
     display: block;
-    margin-left: auto;
+    margin-left: 0;
     margin-right: auto;
 }
 /* Sección llamativa de sitio en construcción */
@@ -114,6 +116,7 @@ hr {
     font-style: italic;
     text-decoration: none !important;
 }
+
 .hamburger {
     position: absolute;
     right: 32px;
