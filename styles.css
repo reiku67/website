@@ -178,6 +178,7 @@ a.victoriano {
     }
     .container {
         width: 94%;
+        max-width: 800px;
         padding-left: 3%;
         padding-right: 3%;
         border-radius: 0px;
