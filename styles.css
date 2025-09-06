@@ -1,16 +1,3 @@
-.ref-note {
-    font-size: 0.95em;
-    color: #ccc;
-    margin-top: 8px;
-}
-
-img {
-    max-width: 95%;
-    height: auto;
-    display: block;
-    margin-left: 0;
-    margin-right: auto;
-}
 /* Sección llamativa de sitio en construcción */
 @font-face {
     font-family: 'Mrs Saint Delafield';
@@ -18,71 +5,14 @@ img {
     font-weight: normal;
     font-style: normal;
 }
-.construccion {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #07457a;
-    border-radius: 12px;
-}
-.azul {
-    color: #3ea6ff;
-}
-.rojo {
-    color: #ff2d2d;
-}
-a, a:visited {
-    color: #fff;
-    text-decoration: underline;
-    transition: color 0.2s;
-}
-a:hover, a:focus {
-    color: #3ea6ff;
-}
+
 body {
     background: black;
     font-family: 'Freight Text', 'Latin Modern Roman', 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
-.container {
-    width: 80%;
-    max-width: 800px;
-    margin: auto;
-    background: #212121;
-    padding: 40px 48px;
-    border-radius: 12px;
-}
-h1, h2 {
-    font-family: 'Latin Modern Roman', 'Times New Roman', Times, serif;
-    font-weight: normal;
-    color: white;
-    margin-top: 0;
-    margin-bottom: 24px;
-    letter-spacing: 0.5px;
-}
 
-p, li {
-    font-size: 1.15em;
-    line-height: 1.7;
-    color: white;
-    margin-bottom: 16px;
-}
-ol {
-    margin-left: 24px;
-    margin-bottom: 24px;
-}
-strong {
-    font-weight: 600;
-    color: #3ea6ff;
-}
-
-hr {
-    border: none;
-    border-top: 1px solid #424242;
-    margin: 32px 0;
-
-}
 
 .header {
     display: flex;
@@ -110,6 +40,60 @@ a.victoriano {
     width: 170px;
     height: 52px;
 }
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    background: #212121;
+    padding: 40px 48px;
+    border-radius: 8px;
+}
+h1, h2 {
+    font-family: 'Latin Modern Roman', 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 24px;
+    letter-spacing: 0.5px;
+}
+
+p, li {
+    font-size: 1.15em;
+    line-height: 1.7;
+    color: white;
+    margin-bottom: 16px;
+}
+ol {
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+strong {
+    font-weight: 600;
+    color: #3ea6ff;
+}
+
+.azul {
+    color: #3ea6ff;
+}
+.rojo {
+    color: #ff2d2d;
+}
+a, a:visited {
+    color: #fff;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+a:hover, a:focus {
+    color: #3ea6ff;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #424242;
+    margin: 32px 0;
+
+}
+
 
 .hamburger {
     position: absolute;
@@ -166,6 +150,28 @@ a.victoriano {
     text-decoration: none;
     font-size: 1.1em;
     transition: background 0.2s, color 0.2s;
+}
+.ref-note {
+    font-size: 0.95em;
+    color: #ccc;
+    margin-top: 8px;
+}
+
+.construccion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #07457a;
+    border-radius: 12px;
+}
+
+
+img {
+    max-width: 95%;
+    height: auto;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
 }
 
 @media (max-width: 600px) {
