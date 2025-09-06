@@ -85,16 +85,18 @@ hr {
 }
 
 .header {
-    background: #212121;
-    border-bottom: 2px solid #3ea6ff;
-    height: 56px;
-    margin-bottom: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    height: 56px;
+    background: #212121;
+    border-bottom: 2px solid #3ea6ff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
     text-align: center;
     color: white;
-    position: relative;
 }
 
 .victoriano {
@@ -176,7 +178,8 @@ a.victoriano {
     }
 
     .container {
-        width: 100%;
+        width: 95%;
+        max-width: 100%;
         padding-top: 28px;
         padding-bottom: 16px;
         padding-left: 13px;
