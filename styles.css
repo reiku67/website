@@ -169,12 +169,17 @@ a.victoriano {
 }
 
 @media (max-width: 600px) {
-    .header,
+    .header {
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
     .container {
         width: 100%;
         max-width: 100vw;
         padding-left: 12px;
         padding-right: 12px;
+        border-radius: 0px;
         box-sizing: border-box;
     }
     .menu {
