@@ -29,7 +29,7 @@
 }
 
 a.victoriano {
-    width: 170px;
+    width: 220px;
     height: 52px;
     display: inline-block; 
 }
@@ -40,6 +40,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .container {
     width: 80%;
     max-width: 800px;
@@ -117,7 +118,6 @@ hr {
     margin: 3px 0;
     background: #3ea6ff;
 }
-
 
 
 .menu {
