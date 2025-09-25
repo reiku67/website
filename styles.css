@@ -176,7 +176,7 @@ img {
     }
     .container {
         width: 100%;
-        max-width: 800px;
+        max-width: 100vw;
         padding-left: 4%;
         padding-right: 4%;
     }
