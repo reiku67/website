@@ -175,10 +175,10 @@ img {
 
     }
     .container {
-        width: 94%;
+        width: 100%;
         max-width: 800px;
-        padding-left: 3%;
-        padding-right: 3%;
+        padding-left: 4%;
+        padding-right: 4%;
     }
     .menu {
         position: absolute;
