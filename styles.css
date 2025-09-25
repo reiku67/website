@@ -167,11 +167,9 @@ hr {
 
 
 img {
-    max-width: 95%;
     height: auto;
     display: block;
     margin-left: 0;
-    margin-right: auto;
 }
 
 @media (max-width: 600px) {
