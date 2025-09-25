@@ -47,7 +47,6 @@ body {
     margin: auto;
     background: #212121;
     padding: 40px 48px;
-    border-radius: 8px;
 }
 h1, h2 {
     font-family: 'Latin Modern Roman', 'Times New Roman', Times, serif;
@@ -125,8 +124,8 @@ hr {
     top: 56px;
     right: 0;
     background: #212121;
-    border-radius: 0 0 0 9px;
-    min-width: 160px;
+    border-radius: 0 0 0 4px;
+    min-width: 150px;
     display: none;
     z-index: 3;
     border-left: 2px solid #3ea6ff;
@@ -138,18 +137,14 @@ hr {
 .menu ul {
     list-style: none;
     margin: 0;
-    padding: 0 12px 12px;
+    padding: 0 12px 0px;
 }
-.menu li {
-    margin: 0;
-    padding: 8px;
-}
+
 .menu a {
     display: block;
-    padding: 0px 24px;
+    padding: 0px 20px;
+    text-align: left;
     text-decoration: none;
-    font-size: 1.1em;
-    transition: background 0.2s, color 0.2s;
 }
 .ref-note {
     font-size: 0.95em;
@@ -162,7 +157,6 @@ hr {
     align-items: center;
     justify-content: center;
     background: #07457a;
-    border-radius: 12px;
 }
 
 
@@ -185,7 +179,6 @@ img {
         max-width: 800px;
         padding-left: 3%;
         padding-right: 3%;
-        border-radius: 0px;
     }
     .menu {
         position: absolute;
