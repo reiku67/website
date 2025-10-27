@@ -164,6 +164,7 @@ img {
     height: auto;
     display: block;
     margin-left: 0;
+    max-width: 800px;
 }
 
 @media (max-width: 600px) {
